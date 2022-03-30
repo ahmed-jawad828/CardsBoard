@@ -1,5 +1,40 @@
-<button id="showToastButton">Say hello</button>
-<button id="closeButton">Close</button>
+<script src="https://cdn.tailwindcss.com"></script>
+<div class="flex justify-center">
+  <button
+    id="showToastButton"
+    class="p-2 bg-blue-500 mx-2 font-semibold rounded-md text-white hover:opacity-70 mt-2 transition duration-300"
+  >
+    Say hello
+  </button>
+  <button
+    id="closeButton"
+    class="py-2 px-4 bg-red-400 mx-2 text-white font-semibold rounded-md hover:opacity-70 mt-2 transition duration-300"
+  >
+    Close
+  </button>
+</div>
+<section class="my-3 px-3">
+  <div class="bg-cyan-500 px-3 py-4 rounded-t-lg">
+    <h6 class="font-bold">Card Title</h6>
+    <h6 class="font-medium text-white">TUK Optimization</h6>
+  </div>
+  <div class="bg-green-400 px-3 py-4">
+    <h6 class="font-bold">Description</h6>
+    <h6 class="font-medium text-white">
+      TUK components needs to be profiled & memoized accordingly.
+    </h6>
+  </div>
+  <div class="bg-purple-400 px-3 py-4">
+    <h6 class="font-bold">Task is Assigned to</h6>
+    <h6 class="font-medium text-white">
+      Shahid Afridi - Senior DevOps Engineer
+    </h6>
+  </div>
+  <div class="bg-yellow-500 px-3 py-4 rounded-b-lg">
+    <h6 class="font-bold">Task Completion Deadline</h6>
+    <h6 class="font-medium text-white">14th, August 2025</h6>
+  </div>
+</section>
 
 <script>
   const showToastButton = document.getElementById("showToastButton");
